@@ -54,7 +54,7 @@ cover_title: 狂小克 · 个人作品集
     </div>
 
     <div class="db-row">
-      <div><a class="project-link" href="{{ '/projects/research-paper' | relative_url }}">硕士期间的工作）</a></div>
+      <div><a class="project-link" href="{{ '/projects/research-paper' | relative_url }}">硕士期间的工作</a></div>
       <div><span class="tag">研究论文</span></div>
       <div class="meta">LLM 驱动的 DSA 代码生成框架研究，论文 PDF 已收录。</div>
       <div><a class="btn" href="{{ '/projects/research-paper' | relative_url }}">查看</a></div>
