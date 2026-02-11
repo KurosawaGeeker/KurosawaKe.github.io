@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: 狂小克作品集
+---
 
-You can use the [editor on GitHub](https://github.com/KurosawaGeeker/KurosawaKe.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# 狂小克 · 个人 blog 作品集
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+你好，我是**狂小克**。这个站点基于当前资料整理了 3 个代表作品，持续更新中。
 
-### Markdown
+## 作品总览
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| 作品 | 类型 | 一句话简介 | 查看详情 |
+| --- | --- | --- | --- |
+| Re0：从 0 开始的 HUST 生活 | 校园剧情模拟游戏 | 以大学四年选择为主线的叙事模拟游戏项目 | [进入页面](./projects/re0-hust-life) |
+| 微伴助手 OpenAPI | 企业产品 / 开放平台 | 在夜莺科技参与的核心产品方向之一 | [进入页面](./projects/weiban-openapi) |
+| 年初小作品（飞书 Wiki） | 小型项目 | 今年年初完成并沉淀在飞书 Wiki 的项目 | [进入页面](./projects/early-2025-mini-project) |
 
-```markdown
-Syntax highlighted code block
+## 作品 1：Re0：从 0 开始的 HUST 生活
 
-# Header 1
-## Header 2
-### Header 3
+- **定位**：面向大学生群体的剧情模拟与选择导向游戏。
+- **核心机制**：围绕学期回合推进，玩家通过每天的决策影响角色属性与毕业结局。
+- **技术实现**：使用 `Python` 与 `Ren'Py` 引擎完成页面、逻辑、音效联动。
+- **特色内容**：加入华科校园元素、事件彩蛋、隐藏结局和价值取向设计。
 
-- Bulleted
-- List
+👉 [查看完整项目页](./projects/re0-hust-life)
 
-1. Numbered
-2. List
+## 作品 2：微伴助手 OpenAPI
 
-**Bold** and _Italic_ and `Code` text
+- **项目背景**：该项目来自夜莺科技阶段的主要产品工作。
+- **公开入口**：提供了开放接口对接文档，支持开发者接入。
+- **页面关键词**：OpenAPI 基本介绍、接入准备、与企业微信 API 差异等。
 
-[Link](url) and ![Image](src)
-```
+👉 [访问产品文档](https://openapi.weibanzhushou.com/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+👉 [查看整理页](./projects/weiban-openapi)
 
-### Jekyll Themes
+## 作品 3：年初小作品（飞书 Wiki）
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KurosawaGeeker/KurosawaKe.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- **项目来源**：来自提供资料中的飞书 Wiki 链接。
+- **阶段定位**：今年年初的小型项目。
+- **状态说明**：目前作为作品集收录入口，后续可继续补充目标、功能、成果与复盘细节。
 
-### Support or Contact
+👉 [访问飞书 Wiki](https://pcndiy2v0rgo.feishu.cn/wiki/NjTcwQIl5iBu2HkzTsfcL9TInDe?from=from_copylink)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+👉 [查看整理页](./projects/early-2025-mini-project)
+
+---
+
+如果你希望我继续把这 3 个作品扩展成更完整的 case study（含截图、时间线、职责拆分、结果指标），可以在这个仓库继续迭代。
