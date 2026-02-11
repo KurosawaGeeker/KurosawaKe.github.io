@@ -1,3 +1,7 @@
-theme: jekyll-theme-slate
-title: 狂小克 | 个人作品集
-description: 狂小克的个人 blog 作品集，收录 3 个代表作品。
+title: 狂小克 Portfolio
+description: 狂小克的个人作品集与研究记录
+url: https://kurosawageeker.github.io
+baseurl: /KurosawaKe.github.io
+markdown: kramdown
+kramdown:
+  input: GFM

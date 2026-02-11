@@ -1,49 +1,70 @@
 ---
 layout: default
-title: 狂小克作品集
+title: 个人作品集
+cover_title: 狂小克 · 个人作品集
+cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、游戏项目与研究论文。
 ---
 
-# 狂小克 · 个人 blog 作品集
+<div class="page-card callout">
+  <p>这里是我的公开作品档案：每个项目都包含「定位、我的工作、结果/状态、外链」。后续会继续补充截图、指标与复盘。</p>
+</div>
 
-你好，我是**狂小克**。这个站点基于当前资料整理了 3 个代表作品，持续更新中。
+<section class="page-card">
+  <h2>Projects Database</h2>
+  <div class="db-table">
+    <div class="db-head">
+      <div>作品</div>
+      <div>类型</div>
+      <div>一句话简介</div>
+      <div>详情</div>
+    </div>
 
-## 作品总览
+    <div class="db-row">
+      <div><a class="project-link" href="{{ '/projects/re0-hust-life' | relative_url }}">Re0：从 0 开始的 HUST 生活</a></div>
+      <div><span class="tag">游戏项目</span></div>
+      <div class="meta">大学四年选择模拟叙事，基于属性与事件驱动多结局。</div>
+      <div><a class="btn" href="{{ '/projects/re0-hust-life' | relative_url }}">查看</a></div>
+    </div>
 
-| 作品 | 类型 | 一句话简介 | 查看详情 |
-| --- | --- | --- | --- |
-| Re0：从 0 开始的 HUST 生活 | 校园剧情模拟游戏 | 以大学四年选择为主线的叙事模拟游戏项目 | [进入页面](./projects/re0-hust-life) |
-| 微伴助手 OpenAPI | 企业产品 / 开放平台 | 在夜莺科技参与的核心产品方向之一 | [进入页面](./projects/weiban-openapi) |
-| 年初小作品（飞书 Wiki） | 小型项目 | 今年年初完成并沉淀在飞书 Wiki 的项目 | [进入页面](./projects/early-2025-mini-project) |
+    <div class="db-row">
+      <div><a class="project-link" href="{{ '/projects/weiban-openapi' | relative_url }}">微伴助手 OpenAPI</a></div>
+      <div><span class="tag">产品 / 平台</span></div>
+      <div class="meta">夜莺科技阶段核心方向之一，面向开发者的开放接口能力。</div>
+      <div><a class="btn" href="{{ '/projects/weiban-openapi' | relative_url }}">查看</a></div>
+    </div>
 
-## 作品 1：Re0：从 0 开始的 HUST 生活
+    <div class="db-row">
+      <div><a class="project-link" href="{{ '/projects/early-2025-mini-project' | relative_url }}">年初小作品（飞书 Wiki）</a></div>
+      <div><span class="tag">小型项目</span></div>
+      <div class="meta">年初完成的实践项目，当前收录外链与后续补充提纲。</div>
+      <div><a class="btn" href="{{ '/projects/early-2025-mini-project' | relative_url }}">查看</a></div>
+    </div>
 
-- **定位**：面向大学生群体的剧情模拟与选择导向游戏。
-- **核心机制**：围绕学期回合推进，玩家通过每天的决策影响角色属性与毕业结局。
-- **技术实现**：使用 `Python` 与 `Ren'Py` 引擎完成页面、逻辑、音效联动。
-- **特色内容**：加入华科校园元素、事件彩蛋、隐藏结局和价值取向设计。
+    <div class="db-row">
+      <div><a class="project-link" href="{{ '/projects/research-paper' | relative_url }}">LGD 论文（读研期间）</a></div>
+      <div><span class="tag">研究论文</span></div>
+      <div class="meta">LLM 驱动的 DSA 代码生成框架研究，论文 PDF 已收录。</div>
+      <div><a class="btn" href="{{ '/projects/research-paper' | relative_url }}">查看</a></div>
+    </div>
+  </div>
+</section>
 
-👉 [查看完整项目页](./projects/re0-hust-life)
+<section class="grid-2">
+  <article class="page-card">
+    <h3>我在做什么</h3>
+    <ul class="list-tight">
+      <li>把项目文档从“仅链接”升级为可阅读 case study。</li>
+      <li>沉淀产品工作方法：需求拆解、接口定义、接入体验优化。</li>
+      <li>持续补充可量化结果（效率、覆盖范围、用户反馈）。</li>
+    </ul>
+  </article>
 
-## 作品 2：微伴助手 OpenAPI
-
-- **项目背景**：该项目来自夜莺科技阶段的主要产品工作。
-- **公开入口**：提供了开放接口对接文档，支持开发者接入。
-- **页面关键词**：OpenAPI 基本介绍、接入准备、与企业微信 API 差异等。
-
-👉 [访问产品文档](https://openapi.weibanzhushou.com/)
-
-👉 [查看整理页](./projects/weiban-openapi)
-
-## 作品 3：年初小作品（飞书 Wiki）
-
-- **项目来源**：来自提供资料中的飞书 Wiki 链接。
-- **阶段定位**：今年年初的小型项目。
-- **状态说明**：目前作为作品集收录入口，后续可继续补充目标、功能、成果与复盘细节。
-
-👉 [访问飞书 Wiki](https://pcndiy2v0rgo.feishu.cn/wiki/NjTcwQIl5iBu2HkzTsfcL9TInDe?from=from_copylink)
-
-👉 [查看整理页](./projects/early-2025-mini-project)
-
----
-
-如果你希望我继续把这 3 个作品扩展成更完整的 case study（含截图、时间线、职责拆分、结果指标），可以在这个仓库继续迭代。
+  <article class="page-card">
+    <h3>快速入口</h3>
+    <p>
+      <a class="btn btn-primary" href="https://openapi.weibanzhushou.com/" target="_blank" rel="noopener noreferrer">访问 OpenAPI</a>
+      <a class="btn" href="{{ '/assets/papers/826_file_paper.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">下载论文 PDF</a>
+    </p>
+    <p class="meta">若你在招聘 / 合作场景访问，可直接从这里获取最核心材料。</p>
+  </article>
+</section>

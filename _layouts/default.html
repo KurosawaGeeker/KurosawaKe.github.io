@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/notion.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">狂小克</a>
+        <nav class="nav-links">
+          <a href="{{ '/' | relative_url }}">作品</a>
+          <a href="{{ '/projects/research-paper' | relative_url }}">论文</a>
+          <a href="https://openapi.weibanzhushou.com/" target="_blank" rel="noopener noreferrer">OpenAPI</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero">
+        <p class="hero-kicker">Portfolio</p>
+        <h1>{{ page.cover_title | default: page.title }}</h1>
+        {% if page.cover_subtitle %}<p class="hero-subtitle">{{ page.cover_subtitle }}</p>{% endif %}
+      </section>
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <p>© {{ "now" | date: "%Y" }} 狂小克 · Built with Jekyll · Last update: {{ "now" | date: "%Y-%m-%d" }}</p>
+    </footer>
+  </body>
+</html>
