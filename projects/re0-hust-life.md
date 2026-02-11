@@ -7,6 +7,10 @@ cover_subtitle: 校园叙事模拟游戏 · Python + Ren'Py
 
 <div class="page-card">
   <p><a class="btn" href="{{ '/' | relative_url }}">← 返回作品总览</a></p>
+  <figure class="cover-photo">
+    <img src="{{ '/assets/images/re0/cover.png' | relative_url }}" alt="Re0 项目封面" loading="lazy" />
+    <figcaption>项目封面（素材来源：答辩 PPT）</figcaption>
+  </figure>
   <p>以大学四年为时间线，通过“每天做什么”的选择，累积属性变化并导向不同毕业结局。</p>
 </div>
 
@@ -33,11 +37,14 @@ cover_subtitle: 校园叙事模拟游戏 · Python + Ren'Py
 </section>
 
 <section class="page-card">
-  <h3>项目亮点</h3>
-  <ul class="list-tight">
-    <li>把“大学选择”抽象成可解释的系统设计，适合复盘与反思。</li>
-    <li>对新生有规划启发，对毕业生有回顾意义。</li>
-    <li>主体流程与世界观已完成，后续可扩展更多有趣支线。</li>
-  </ul>
+  <h3>项目截图</h3>
+  <div class="image-grid">
+    <figure><img src="{{ '/assets/images/re0/scene-dorm-ui.png' | relative_url }}" alt="宿舍场景与UI" loading="lazy" /><figcaption>宿舍场景与 UI</figcaption></figure>
+    <figure><img src="{{ '/assets/images/re0/event-boar.png' | relative_url }}" alt="彩蛋事件截图" loading="lazy" /><figcaption>彩蛋事件（野猪）</figcaption></figure>
+    <figure><img src="{{ '/assets/images/re0/ending-kaoyan.png' | relative_url }}" alt="考研结局截图" loading="lazy" /><figcaption>结局：考研</figcaption></figure>
+    <figure><img src="{{ '/assets/images/re0/ending-job.png' | relative_url }}" alt="就业结局截图" loading="lazy" /><figcaption>结局：就业</figcaption></figure>
+    <figure><img src="{{ '/assets/images/re0/ending-startup.png' | relative_url }}" alt="创业结局截图" loading="lazy" /><figcaption>结局：创业</figcaption></figure>
+    <figure><img src="{{ '/assets/images/re0/scene-gate.png' | relative_url }}" alt="校园场景截图" loading="lazy" /><figcaption>校园场景</figcaption></figure>
+  </div>
   <p class="meta">资料来源：<code>re0答辩最终版.pptx</code></p>
 </section>

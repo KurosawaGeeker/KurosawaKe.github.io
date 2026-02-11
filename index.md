@@ -6,8 +6,26 @@ cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、�
 ---
 
 <div class="page-card callout">
-  <p>这里是我的公开作品档案：每个项目都包含「定位、我的工作、结果/状态、外链」。后续会继续补充截图、指标与复盘。</p>
+  <p>你提到页面太素，这版开始加入了项目素材图：游戏图来自 <code>re0答辩最终版.pptx</code>，论文图来自 <code>826_file_paper.pdf</code> 首页面截图。</p>
 </div>
+
+<section class="page-card">
+  <h2>视觉预览</h2>
+  <div class="preview-grid">
+    <a class="preview-card" href="{{ '/projects/re0-hust-life' | relative_url }}">
+      <img src="{{ '/assets/images/re0/cover.png' | relative_url }}" alt="Re0 封面图" loading="lazy" />
+      <p>Re0 项目封面</p>
+    </a>
+    <a class="preview-card" href="{{ '/projects/re0-hust-life' | relative_url }}">
+      <img src="{{ '/assets/images/re0/event-boar.png' | relative_url }}" alt="Re0 事件截图" loading="lazy" />
+      <p>Re0 事件分支截图</p>
+    </a>
+    <a class="preview-card" href="{{ '/projects/research-paper' | relative_url }}">
+      <img src="{{ '/assets/images/paper/paper-page1.png' | relative_url }}" alt="论文首页截图" loading="lazy" />
+      <p>读研论文首页截图</p>
+    </a>
+  </div>
+</section>
 
 <section class="page-card">
   <h2>Projects Database</h2>
