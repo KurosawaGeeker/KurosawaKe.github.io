@@ -2,12 +2,7 @@
 layout: default
 title: 个人作品集
 cover_title: 狂小克 · 个人作品集
-cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、游戏项目与研究论文。
 ---
-
-<div class="page-card callout">
-  <p>你提到页面太素，这版开始加入了项目素材图：游戏图来自 <code>re0答辩最终版.pptx</code>，论文图来自 <code>826_file_paper.pdf</code> 首页面截图。</p>
-</div>
 
 <section class="page-card">
   <h2>视觉预览</h2>
@@ -68,15 +63,6 @@ cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、�
 </section>
 
 <section class="grid-2">
-  <article class="page-card">
-    <h3>我在做什么</h3>
-    <ul class="list-tight">
-      <li>把项目文档从“仅链接”升级为可阅读 case study。</li>
-      <li>沉淀产品工作方法：需求拆解、接口定义、接入体验优化。</li>
-      <li>持续补充可量化结果（效率、覆盖范围、用户反馈）。</li>
-    </ul>
-  </article>
-
   <article class="page-card">
     <h3>快速入口</h3>
     <p>
