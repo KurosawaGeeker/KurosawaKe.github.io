@@ -21,8 +21,8 @@ cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、�
       <p>Re0 事件分支截图</p>
     </a>
     <a class="preview-card" href="{{ '/projects/research-paper' | relative_url }}">
-      <img src="{{ '/assets/images/paper/paper-page1.png' | relative_url }}" alt="论文首页截图" loading="lazy" />
-      <p>读研论文首页截图</p>
+      <img src="{{ '/assets/images/paper/workflow-key-figure.png' | relative_url }}" alt="论文关键图截图" loading="lazy" />
+      <p>读研论文关键图截图</p>
     </a>
   </div>
 </section>

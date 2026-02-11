@@ -9,8 +9,8 @@ cover_subtitle: 读研期间论文 · Library of Domain-Specific Architectures
   <p><a class="btn" href="{{ '/' | relative_url }}">← 返回作品总览</a></p>
   <p>这篇论文是我在读研期间完成的研究成果，当前已把原始 PDF 收录到站点内，方便直接查看与下载。</p>
   <figure class="cover-photo paper-shot">
-    <img src="{{ '/assets/images/paper/paper-page1.png' | relative_url }}" alt="LGD 论文第一页截图" loading="lazy" />
-    <figcaption>论文第一页截图（由 PDF 渲染）</figcaption>
+    <img src="{{ '/assets/images/paper/workflow-key-figure.png' | relative_url }}" alt="LGD 论文关键图截图" loading="lazy" />
+    <figcaption>论文关键图截图（WorkflowSimple / WorkflowComplex）</figcaption>
   </figure>
   <p>
     <a class="btn btn-primary" href="{{ '/assets/papers/826_file_paper.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">在线查看 PDF</a>
