@@ -52,14 +52,14 @@ cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、�
     </div>
 
     <div class="db-row">
-      <div><a class="project-link" href="{{ '/projects/early-2025-mini-project' | relative_url }}">年初小作品（飞书 Wiki）</a></div>
+      <div><a class="project-link" href="{{ '/projects/early-2025-mini-project' | relative_url }}">爱福语AI（飞书 Wiki）</a></div>
       <div><span class="tag">小型项目</span></div>
-      <div class="meta">年初完成的实践项目，当前收录外链与后续补充提纲。</div>
+      <div class="meta">25年初完成的实践项目，当前收录外链与后续补充提纲。</div>
       <div><a class="btn" href="{{ '/projects/early-2025-mini-project' | relative_url }}">查看</a></div>
     </div>
 
     <div class="db-row">
-      <div><a class="project-link" href="{{ '/projects/research-paper' | relative_url }}">LGD 论文（读研期间）</a></div>
+      <div><a class="project-link" href="{{ '/projects/research-paper' | relative_url }}">硕士期间的工作）</a></div>
       <div><span class="tag">研究论文</span></div>
       <div class="meta">LLM 驱动的 DSA 代码生成框架研究，论文 PDF 已收录。</div>
       <div><a class="btn" href="{{ '/projects/research-paper' | relative_url }}">查看</a></div>
@@ -83,6 +83,5 @@ cover_subtitle: 参考 Notion 信息架构重做的 portfolio，收录产品、�
       <a class="btn btn-primary" href="https://openapi.weibanzhushou.com/" target="_blank" rel="noopener noreferrer">访问 OpenAPI</a>
       <a class="btn" href="{{ '/assets/papers/826_file_paper.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">下载论文 PDF</a>
     </p>
-    <p class="meta">若你在招聘 / 合作场景访问，可直接从这里获取最核心材料。</p>
   </article>
 </section>
